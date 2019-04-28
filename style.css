@@ -1,0 +1,122 @@
+body {
+    background: #f1f1f1;
+    font-family: Georgia, serif;
+    font-size: 18px;
+  }
+  
+  h1 {
+    font-size: 80px;
+    color: rgb(5, 199, 167);
+  }
+  
+  h2 {
+    font-size: 60px;
+    color: rgb(5, 199, 167);
+  }
+  
+  h3 {
+    font-size: 30px;
+    color:rgb(5, 199, 167);
+    text-align: center;
+  }
+  
+  /* Giving our navbar some padding and a background color */
+  .navbar {
+    padding: 10px;
+  }
+  
+  /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+  .navbar li {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .navbar-brand {
+      background-color:  rgb(5, 199, 167);
+      font-weight: bold;
+  }
+  
+  #NavbarTitle {
+      color: white;
+  }
+  
+  /* Styling the header, giving it a height, a background color, and some top padding */
+  .header {
+    height: 200px;
+    padding-top: 20px;
+    background: #cdcdcd;
+  }
+  
+  /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+  .header h1 {
+    padding: 60px;
+    margin: 0;
+    color: #000;
+    text-align: center;
+  }
+  
+  /* Giving the .post element margin on 3 sides */
+  .post {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  
+  
+
+  
+  .smallscreen {
+    display: none;
+  }
+  
+  #focus {
+    border: 5px solid  rgb(5, 199, 167)
+  }
+  
+  #DataWindow {
+    background-color: white;
+  }
+  
+  .table {
+    margin-top:50px;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  
+  .header_row {
+    font-weight: bold;
+  }
+  
+  .comparison_header {
+    text-align: center;
+  }
+  
+  .greenheader {
+    font:  rgb(5, 199, 167);
+  }
+  .box{
+    padding: 10px;
+    background: white;
+    margin-top:50px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:20px;
+    align-content: center;
+  }
+
+  p{
+    font-size: 30px;
+}
+ 
+  @media (max-width: 988px) {
+  
+    .smallscreen {
+      display: block;
+    }
+  
+    .bigscreen {
+      display: noneH
+    }
+  }
